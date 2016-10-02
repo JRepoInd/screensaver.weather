@@ -1,0 +1,11 @@
+v1.2.1 (2016-08-19)
+- Moved to robwebset repository
+
+v1.1.1 (2016-04-05)
+- Tidy up import, globals and plugin provides
+
+v1.1.0 (2015-08-28)
+- Stop Screen dimming after a few minutes
+
+v1.0.0 (2015-07-28)
+- Initial Version
