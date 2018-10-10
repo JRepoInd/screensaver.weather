@@ -1,4 +1,4 @@
-**FIXED YOU DO NOT NEED TO INSTALL FOR SHITTY UREPO NOW ** 
+**FIXED YOU DO NOT NEED TO INSTALL FRom SHITTY UREPO NOW ** 
 You can install now directly by downloading this project zip on github and installingin kodi 
 
 ![WeatherScreensaver](icon.png)
