@@ -43,7 +43,7 @@ if __name__ == '__main__':
     json_query = xbmc.executeJSONRPC('{"jsonrpc": "2.0", "method": "Addons.GetAddonDetails", "params": { "addonid": "repository.robwebset", "properties": ["enabled", "broken", "name", "author"]  }, "id": 1}')
     json_response = json.loads(json_query)
 
-    displayNotice = True
+    displayNotice = False
     if ("result" in json_response) and ('addon' in json_response['result']):
         addonItem = json_response['result']['addon']
         if (addonItem['enabled'] is True) and (addonItem['broken'] is False) and (addonItem['type'] == 'xbmc.addon.repository') and (addonItem['addonid'] == 'repository.robwebset') and (addonItem['author'] == 'robwebset'):
