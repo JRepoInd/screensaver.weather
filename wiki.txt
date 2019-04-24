@@ -1,8 +1,6 @@
 [[https://github.com/robwebset/screensaver.weather/raw/master/icon.png]]
 
 == Introduction ==
-You can install this addon from: [https://www.urepo.org URepo Repository]
-<br />
 The WeatherScreensaver is an addon that you can select as your screensaver and will display the weather screen in Kodi.
 
 It will display whichever Weather add-on you have configured via the Kodi System Settings.
