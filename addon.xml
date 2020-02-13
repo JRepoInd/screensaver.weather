@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="screensaver.weather" name="WeatherScreensaver" version="100.4.0" provider-name="robwebset">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-	</requires>
-	<extension point="xbmc.ui.screensaver" library="default.py"/>
-  	<extension point="xbmc.python.script" library="default.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Weather Screensaver</summary>
-		<description lang="en">Screensaver that displays the weather.</description>
-		<language></language>
-		<platform>all</platform>
-		<license>See LICENSE.txt</license>
-		<forum>http://www.urepo.org/forum/viewtopic.php?t=1774</forum>
-		<news>Available from the URepo repository</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<banner>resources/banner.jpg</banner>
-			<logo>resources/logo.png</logo>
-		</assets>
-	</extension>
+<addon id="screensaver.weather" name="Weather Screensaver" version="100.5.0" provider-name="drinfernoo">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    
+    <extension point="xbmc.ui.screensaver" library="default.py"/>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Weather Screensaver</summary>
+        <description lang="en">Screensaver that displays the weather.</description>
+        <platform>all</platform>
+        <license>See LICENSE.txt</license>
+        <news>v100.5.0 (2020-02-12)[CR]- Massive cleanup</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
